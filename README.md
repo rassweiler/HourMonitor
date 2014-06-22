@@ -1,6 +1,5 @@
 Hour Monitor
 ==============
-
 *v.2014-06-20*
 
 An hour tracking tool. Hour Monitor keeps track of hours worked, overtime, holiday, double time, etc..
@@ -13,35 +12,32 @@ Technologies Used
 
 Dependencies
 ------------
-Run these from the root directory so you end up with your `node_modules` folder there.
-
 1. NodeJs - Install and add to path with installer.
 2. Node-webkit - Clone to somewhere, add main folder to path.
-3. Node Modules - cd to project folder in cmd, type npm install -g gulp, npm install.
+3. Node Modules - cd to project folder in cmd, type npm install -g gulp to setup global gulp, then type npm install to install all dependencies from package.json file.
 4. Check node_modules folder for: .bin, gulp, gulp-sass, gulp-traceur, traceur folders.
+5. download jquery (using 2.1.1.min.js atm) and place it in Tools/
+6. download bootstrap and place the files in Tools/ 
 
 How To Build
 ------------
 #### Windows
-
 1. Setup the dependencies.
 2. If run.bat available: run it.
 3. If run.bat not available: Open cmd window and cd to project folder, type gulp, if setup was ok then gulp should compile all js files into Compiled folder and run program.
 
 #### Linux
-
 Unknown
 
 #### Mac
-
 Unknown
 
 Current Status
 --------------
-
 Working on:
 
-* Shitting britches.
+* DRY.
+* Multiple jobs opened.
 
 Screenshots
 -----------
