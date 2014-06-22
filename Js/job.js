@@ -1,6 +1,10 @@
 class Job{
 	constructor() {
-		this.jobs = {};
+		this.jobTitle="";
+		this.companyTitle="";
+	}
+	loadJob(jobObject){
+		
 	}
 }
 module.exports = Job

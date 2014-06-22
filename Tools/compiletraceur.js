@@ -1,3 +1,4 @@
+//Script from Spritzup @https://github.com/dennmat/spritzup/
 var traceur = require('traceur');
 var fs = require('fs');
 

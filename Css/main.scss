@@ -15,6 +15,50 @@
     background-color: #000;
   }
 }
+/* custom icons
+   copy the styles below into icons-dashboard-sprites.css */
+
+[class^="icon-sprite-"],
+[class*=" icon-sprite-"] {
+    background-image: url("../../Images/Icons.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.icon-sprite-load { 
+  background-position : 0px 0px; 
+  width : 14px; 
+  height : 10px;  
+}
+.icon-sprite-save { 
+  background-position : -14px 0px; 
+  width : 14px; 
+  height : 14px;  
+}
+.icon-sprite-new { 
+  background-position : -28px 0px; 
+  width : 14px; 
+  height : 12px;  
+}
+.icon-sprite-quit { 
+  background-position : -42px 0px; 
+  width : 14px; 
+  height : 13px;  
+}
+.icon-sprite-close { 
+  background-position : -56px 0px; 
+  width : 14px; 
+  height : 14px;  
+}
+.icon-sprite-delete { 
+  background-position : -70px 0px; 
+  width : 10px; 
+  height : 14px;  
+}
+.icon-sprite-edit { 
+  background-position : -80px 0px; 
+  width : 14px; 
+  height : 14px;  
+}
 .margin-r-5{
  margin-right: 5px;
 }
