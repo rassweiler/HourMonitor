@@ -31,27 +31,38 @@
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Actions<b class="caret"></b></a>
 									<ul class="dropdown-menu inverse-dropdown">
-									 	<li><a href="#">Close Job<span class="glyphicon icon-sprite-close margin-l-5"></span></a></li>
-									 	<li><a href="#">Edit Job<span class="glyphicon icon-sprite-edit margin-l-5"></span></a></li>
-										<li><a href="#">New Job<span class="glyphicon icon-sprite-new margin-l-5"></span></a></li>
-										<li><a href="#">Load Job<span class="glyphicon icon-sprite-load margin-l-5"></span></a></li>
-										<li><a href="#">Save Job<span class="glyphicon icon-sprite-save margin-l-5"></span></a></li>
-										<li><a href="#">Delete Job<span class="glyphicon icon-sprite-delete margin-l-5"></span></a></li>
-										<li><a href="#">Quit<span class="glyphicon icon-sprite-quit margin-l-5"></span></a></li>
-										<li class="divider"></li>
+									 	<li rel="closeJob">
+									 		<a href="#">Close Job<span class="glyphicon icon-sprite-close margin-l-5"></span></a>
+									 	</li>
+									 	<li rel="editJob">
+									 		<a href="#">Edit Job<span class="glyphicon icon-sprite-edit margin-l-5"></span></a>
+									 	</li>
+										<li rel="newJob">
+											<a href="#">New Job<span class="glyphicon icon-sprite-new margin-l-5"></span></a>
+										</li>
+										<li rel="loadJob">
+											<a href="#">Load Job<span class="glyphicon icon-sprite-load margin-l-5"></span></a>
+										</li>
+										<li>
+										<li rel="saveJob">
+											<a href="#">Save Job<span class="glyphicon icon-sprite-save margin-l-5"></span></a>
+										</li>
+										<li >
+										<li rel="deleteJob">
+											<a href="#">Delete Job<span class="glyphicon icon-sprite-delete margin-l-5"></span></a>
+										</li>
 									</ul>
 								</li>
 							</ul>
-							<ul class="nav navbar-nav navbar-right">
-								<li><a href="#">Link</a></li>
+							<ul id= "job-tab" class="nav navbar-nav navbar-right">
 							</ul>
 						 </div>
 					</div>
 				</nav>
 			</div>
 		</header>
-		<input style="display: none;" id="fileDialog" type="file" accept=".jerb" />
-		<input style="display: none;" id="saveFileDialog" type="file" nwsaveas accept=".jerb" />
+		<input style="display: none;" id="loadJob" type="file" accept=".jerb" />
+		<input style="display: none;" id="saveJob" type="file" nwsaveas accept=".jerb" />
 		<script type="text/javascript" src="../Tools/External/jquery-2.1.1.min.js"></script>
 		<script type="text/javascript"src="../Tools/External/bootstrap.min.js"></script>
 		<script type="text/javascript">

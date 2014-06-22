@@ -3,3 +3,4 @@ node_modules/*
 Media/*
 Log/*
 Tools/External/*
+config.json
