@@ -1,0 +1,22 @@
+{
+  "name": "Hour Monitor",
+  "main": "Html/main.html",
+  "single-instance": true,
+  "window": {
+    "Title":"Hour Monitor",
+    "toolbar": false,
+    "position": "center",
+    "width": 480,
+    "height": 640,
+    "icon":"Images/icon.png"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.1",
+    "gulp-sass": "^0.7.2",
+    "gulp-traceur": "^0.7.0"
+  },
+  "dependencies": {
+    "traceur": "0.0.45"
+  },
+  "chromium-args": "--child-clean-exit"
+}

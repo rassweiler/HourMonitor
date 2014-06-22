@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Hour Monitor</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" type="text/css" href="../Compiled/styles/main.css" />
+	</head>
+	<body>
+		<header class="navbar-inverse" role="banner">
+			<div class="container">
+				<nav role="navigation">
+					<div class="container-fluid">
+					 <!-- Brand and toggle get grouped for better mobile display -->
+					 <div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">Hour Monitor</a>
+					 </div>
+					 <!-- Collect the nav links, forms, and other content for toggling -->
+					 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<!-- Dropdown menu -->
+							<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Actions<b class="caret"></b></a>
+							<ul class="dropdown-menu inverse-dropdown">
+							 	<li><a href="#">Close Job<span class="glyphicon glyphicon-floppy-remove margin-l-5"></span></a></li>
+							 	<li><a href="#">Edit Job<span class="glyphicon glyphicon-edit margin-l-5"></span></a></li>
+								<li><a href="#">New Job<span class="glyphicon glyphicon-floppy-disk margin-l-5"></span></a></li>
+								<li><a href="#">Load Job<span class="glyphicon glyphicon-floppy-open margin-l-5"></span></a></li>
+								<li><a href="#">Save Job<span class="glyphicon glyphicon-floppy-save margin-l-5"></span></a></li>
+								<li><a href="#">Delete Job<span class="glyphicon glyphicon-trash margin-l-5"></span></a></li>
+								<li><a href="#">Quit<span class="glyphicon glyphicon-remove margin-l-5"></span></a></li>
+								<li class="divider"></li>
+							</ul>
+							</li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#">Link</a></li>
+						</ul>
+					 </div><!-- /.navbar-collapse -->
+					</div><!-- /.container-fluid -->
+				</nav>
+			</div>
+		</header>
+		<input style="display: none;" id="fileDialog" type="file" accept=".jerb" />
+		<input style="display: none;" id="saveFileDialog" type="file" nwsaveas accept=".jerb" />
+		<script type="text/javascript" src="../Tools/jquery-2.1.1.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+			var traceurRuntimePath = require("traceur").RUNTIME_PATH;
+			var traceurRuntime = require(traceurRuntimePath);
+		</script>
+		<script type="text/javascript" src="../Compiled/main.js"></script>
+	</body>
+</html>
